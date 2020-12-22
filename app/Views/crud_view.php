@@ -71,7 +71,7 @@
 
     function delete_data(id) {
         if(confirm("Are you sure, you want to delete?")) {
-            window.location.href = "<?php echo base_url(); ?>/crud/delete/"+id;
+            window.location.href = "<?php echo base_url(); ?>/`crud/delete/"+id;
         }
         console.log(id);
         return false;
